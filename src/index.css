@@ -146,6 +146,10 @@
     animation: pulseSubtle 2s ease-in-out infinite;
   }
 
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
   .animation-delay-100 {
     animation-delay: 0.1s;
   }
@@ -160,6 +164,15 @@
 
   .animation-delay-400 {
     animation-delay: 0.4s;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 

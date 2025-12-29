@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="container">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold leading-tight text-foreground animate-fade-up">
-            O site que sua empresa precisa — pronto em até{" "}
+            O site que sua empresa precisa, pronto em até{" "}
             <span className="text-brand-red">3 dias úteis</span>, sem custo
             absurdo.
           </h2>

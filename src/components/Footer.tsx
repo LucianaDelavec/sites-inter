@@ -21,11 +21,6 @@ const Footer = () => {
             www.sitesinter.com
           </p>
 
-          <p className="text-background/50 text-xs max-w-md mx-auto">
-            Essa identidade transmite padrão internacional, organização,
-            solidez e confiança, reforçando a decisão de compra.
-          </p>
-
           <div className="mt-8 pt-8 border-t border-background/10">
             <p className="text-background/40 text-xs">
               © {new Date().getFullYear()} Sites INTER. Todos os direitos
