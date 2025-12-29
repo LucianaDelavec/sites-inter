@@ -91,7 +91,7 @@ const TestimonialsSection = () => {
                   <span className="font-bold text-brand-red">A</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Ana</p>
+                  <p className="font-semibold text-foreground">Ana Paula Almeida</p>
                   <p className="text-sm text-muted-foreground">Nutricionista</p>
                 </div>
                 <div className="ml-auto flex gap-0.5">
@@ -116,7 +116,7 @@ const TestimonialsSection = () => {
                   <span className="font-bold text-brand-red">M</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Marcos</p>
+                  <p className="font-semibold text-foreground">Marcos Alencar</p>
                   <p className="text-sm text-muted-foreground">Advogado</p>
                 </div>
                 <div className="ml-auto flex gap-0.5">
