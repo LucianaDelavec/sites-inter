@@ -54,9 +54,11 @@ const UrgencySection = () => {
           </div>
 
           <div className="text-center">
-            <Button variant="cta" size="xl" className="group">
-              Quero garantir meu site agora por R$859
-              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <Button variant="cta" size="xl" className="group" asChild>
+              <a href="https://go.hotmart.com/U103583403L?dp=1" target="_blank" rel="noopener noreferrer">
+                Quero garantir meu site agora por R$859
+                <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              </a>
             </Button>
           </div>
         </div>
