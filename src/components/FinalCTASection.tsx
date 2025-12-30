@@ -17,11 +17,12 @@ const FinalCTASection = () => {
           <Button
             variant="cta"
             size="xl"
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group"
+            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group w-full sm:w-auto"
             asChild
           >
             <a href="https://go.hotmart.com/U103583403L?dp=1" target="_blank" rel="noopener noreferrer">
-              Quero meu site profissional por R$859
+              <span className="hidden sm:inline">Quero meu site profissional por R$859</span>
+              <span className="sm:hidden">Meu site por R$859</span>
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </a>
           </Button>

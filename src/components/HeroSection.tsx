@@ -33,9 +33,10 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-10 animate-fade-up animation-delay-300">
-            <Button variant="cta" size="xl" className="group" asChild>
+            <Button variant="cta" size="xl" className="group w-full sm:w-auto" asChild>
               <a href="https://go.hotmart.com/U103583403L?dp=1" target="_blank" rel="noopener noreferrer">
-                Quero meu site personalizado por R$859
+                <span className="hidden sm:inline">Quero meu site personalizado por R$859</span>
+                <span className="sm:hidden">Quero meu site por R$859</span>
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </a>
             </Button>
