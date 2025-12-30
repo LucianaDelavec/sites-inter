@@ -18,9 +18,12 @@ const FinalCTASection = () => {
             variant="cta"
             size="xl"
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 group"
+            asChild
           >
-            Quero meu site profissional por R$859
-            <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            <a href="https://go.hotmart.com/U103583403L?dp=1" target="_blank" rel="noopener noreferrer">
+              Quero meu site profissional por R$859
+              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            </a>
           </Button>
         </div>
       </div>
